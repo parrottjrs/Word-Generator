@@ -1,3 +1,46 @@
 h1 {
-    color: red;
+    color: #ff00ff;
+    font-family: cursive;
+    font-size: 500%;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.breakdown {
+    color: #ffff00;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    line-height: 125%;
+}
+
+.button {
+    color: #ff00ff; 
+    background-color: black;
+    border-color: #ff00ff;
+    border-radius: 5px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 120%;
+    letter-spacing: 2px;
+    padding: 15px;
+    min-height: 30px;
+    min-width: 120px;   
+}
+
+.button:hover {
+    color: #00ffff;
+}
+
+.divider {
+    margin: 50px 425px;
+    border: solid;
+    border-color: #ff00ff;
+}
+
+.quote {
+    font-family: cursive;
+    color: #00ffff;
+    font-size: 125%;
 }

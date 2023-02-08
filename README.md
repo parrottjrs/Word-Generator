@@ -1,4 +1,4 @@
-# Word Generator
+# Word Wizard
 
 A random word generator
 
