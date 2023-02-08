@@ -2,4 +2,4 @@
 
 A random word generator
 
-https://parrottjrs.github.io/Word-Wizard/
+https://parrottjrs.github.io/Word-Generator/
