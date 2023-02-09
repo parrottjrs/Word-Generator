@@ -44,3 +44,9 @@ body {
     color: #00ffff;
     font-size: 125%;
 }
+
+.random-word {
+margin: auto auto;
+font-size: 300%;
+color: antiquewhite;
+}
