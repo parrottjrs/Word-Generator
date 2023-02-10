@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC&family=Babylonica&family=Bebas+Neue&family=Codystar:wght@300&family=Creepster&family=Homemade+Apple&family=Indie+Flower&family=Josefin+Sans:wght@100&family=Julee&family=Lobster&family=Luckiest+Guy&family=Monoton&family=Noto+Serif:ital@1&family=Oswald:wght@200&family=Poiret+One&family=Press+Start+2P&family=Righteous&family=Roboto+Mono:wght@100&family=Rubik+Vinyl&family=Shadows+Into+Light&family=Special+Elite&family=Tangerine&family=UnifrakturMaguntia&family=VT323&family=Zeyada&display=swap');
+
 h1 {
     color: #ff00ff;
-    font-family: cursive;
+    font-family: Monoton;
     font-size: 500%;
 }
 
@@ -11,7 +13,7 @@ body {
 
 .breakdown {
     color: #ffff00;
-    font-family: 'Arial Narrow Bold', sans-serif;
+    font-family: Abril;
     letter-spacing: 2px;
     line-height: 125%;
 }
@@ -21,7 +23,7 @@ body {
     background-color: black;
     border-color: #ff00ff;
     border-radius: 5px;
-    font-family: 'Arial Narrow Bold', sans-serif;
+    font-family: Monoton;
     font-size: 120%;
     letter-spacing: 2px;
     padding: 15px;
