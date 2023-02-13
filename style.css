@@ -48,7 +48,9 @@ body {
 }
 
 .random-word {
-margin: auto auto;
-font-size: 300%;
-color: antiquewhite;
+    margin: auto auto;
+    font-size: 500%;
+    color: antiquewhite;
+    padding-top: 250px;
+    padding-bottom: 50px;
 }

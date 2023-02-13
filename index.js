@@ -9,7 +9,7 @@ function randomInteger(max) {
 function randomColor() {
 	let r = randomInteger(255);
     let g = randomInteger(255);
-    let b = randomInteger(233);
+    let b = randomInteger(255);
     let myColor = [r, g, b];
     return "rgb(" + myColor.toString() + ")";
 }
