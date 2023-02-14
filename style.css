@@ -30,9 +30,25 @@ body {
     min-height: 30px;
     min-width: 120px;   
 }
+ .second-button {
+    color: #00ffff; 
+    background-color: black;
+    border-color: #00ffff;
+    border-radius: 5px;
+    font-family: Monoton;
+    font-size: 120%;
+    letter-spacing: 2px;
+    padding: 15px;
+    min-height: 30px;
+    min-width: 120px;   
+ }
 
 .button:hover {
     color: #00ffff;
+}
+
+.second-button:hover {
+    color: #ff00ff;
 }
 
 .divider {

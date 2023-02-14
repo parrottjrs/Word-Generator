@@ -2,9 +2,31 @@ function getWord (){
     location.href = "word.html"
 };
 
+function getRandomQuote() {
+    const quoteList = [
+        '"Raise your words, not your voice. It is rain that grows flowers, not thunder." -Rumi',
+        '"Words have no power to impress the mind without the exquisite horror of their reality." -Edgar Allan Poe',
+        '"To me, the greatest pleasure of writing is not what it\'s about, but the music the words make." —Truman Capote',
+        '"A word is dead when it is said, some say. I say it just begins to live that day." — Emily Dickinson',
+        '“Because even the smallest of words can be the ones to hurt you, or save you.” ― Natsuki Takaya',
+        '“Watch your thoughts, they become your words; watch your words, they become your actions." ― Lao Tzu',
+        '“But there are certain meanings that are lost forever the moment they are explained in words.” ― Haruki Murakami',
+        '“Appearance blinds, whereas words reveal.” ― Oscar Wilde',
+        '“Words bounce. Words, if you let them, will do what they want to do and what they have to do.” ― Anne Carson',
+        '“Freedom is...the right to write the wrong words.” ― Patti Smith',
+        '“Words are like spices. Too many is worse than too few.” ― Joan Aiken',
+        '“Words have weight.” ― Stephen King',
+        'Like water, words are a wonderful conductor of energy. ― Laura Esquivel',
+        '“Sweet words are like honey, a little may refresh but too much gluts the stomach.” - Anne Bradstreet'
+    ];
+
+    const quote = quoteList[Math.floor((Math.random() * quoteList.length))];
+    document.getElementById("quote").innerHTML = quote;
+}
+
 function randomInteger(max) {
     return Math.floor(Math.random()*(max + 1));
-};
+}
 
 function randomColor() {
 	let r = randomInteger(255);
