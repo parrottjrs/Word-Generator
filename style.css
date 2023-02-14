@@ -6,8 +6,13 @@ h1 {
     font-size: 500%;
 }
 
-body {
-    background-color: black;
+.body-one {
+    background: linear-gradient(0.25turn, #2e35ff, #000000, #cb2eff);
+    text-align: center;
+}
+
+.body-two {
+    background: linear-gradient(0.25turn, rgb(203, 46, 255), rgb(0, 0, 0), rgb(46, 53, 255));
     text-align: center;
 }
 

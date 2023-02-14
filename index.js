@@ -10,13 +10,13 @@ function getRandomQuote() {
         '"A word is dead when it is said, some say. I say it just begins to live that day." — Emily Dickinson',
         '“Because even the smallest of words can be the ones to hurt you, or save you.” ― Natsuki Takaya',
         '“Watch your thoughts, they become your words; watch your words, they become your actions." ― Lao Tzu',
-        '“But there are certain meanings that are lost forever the moment they are explained in words.” ― Haruki Murakami',
+        '“...there are certain meanings that are lost forever the moment they are explained in words.” ― Haruki Murakami',
         '“Appearance blinds, whereas words reveal.” ― Oscar Wilde',
         '“Words bounce. Words, if you let them, will do what they want to do and what they have to do.” ― Anne Carson',
         '“Freedom is...the right to write the wrong words.” ― Patti Smith',
         '“Words are like spices. Too many is worse than too few.” ― Joan Aiken',
         '“Words have weight.” ― Stephen King',
-        'Like water, words are a wonderful conductor of energy. ― Laura Esquivel',
+        '"Like water, words are a wonderful conductor of energy." ― Laura Esquivel',
         '“Sweet words are like honey, a little may refresh but too much gluts the stomach.” - Anne Bradstreet'
     ];
 
@@ -33,7 +33,10 @@ function randomColor() {
     let g = randomInteger(255);
     let b = randomInteger(255);
     let myColor = [r, g, b];
-    return "rgb(" + myColor.toString() + ")";
+    if (myColor == [203, 46, 255] || myColor == [0, 0, 0] || myColor == [46, 53, 255]) {
+        randomColor();
+    } else { return "rgb(" + myColor.toString() + ")";
+    };
 }
 
 function getRandomWord() {
