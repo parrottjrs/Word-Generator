@@ -8,12 +8,23 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body class="body-two">
+    <script
+      src="https://cdnjs.cloudfare.com/ajax/libs/randomcolor/0.6.1/randomColor.min.js"
+      integrity="sha512-vPeZ7JCb0HcfpqSx5ZD+/jpEhS4JpXxfz9orSvAPPj0EKUVShU2tgy7XkU+oujBJKnWmu4"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./consts.js"></script>
     <script src="./index.js"></script>
     <p class="random-word" id="random-word"></p>
-    <div class="divider"></div>
-    <button class="second-button" onclick="getWord()">Get another word</button>
+    <hr class="divider" />
+    <div>
+      <button id="get-word-button" class="second-button">
+        Get another word
+      </button>
+    </div>
     <script>
-      getRandomWord();
+      displayRandomWord();
     </script>
   </body>
 </html>

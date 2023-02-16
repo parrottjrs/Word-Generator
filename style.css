@@ -1,77 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC&family=Babylonica&family=Bebas+Neue&family=Codystar:wght@300&family=Creepster&family=Homemade+Apple&family=Indie+Flower&family=Josefin+Sans:wght@100&family=Julee&family=Lobster&family=Luckiest+Guy&family=Monoton&family=Noto+Serif:ital@1&family=Oswald:wght@200&family=Poiret+One&family=Press+Start+2P&family=Righteous&family=Roboto+Mono:wght@100&family=Rubik+Vinyl&family=Shadows+Into+Light&family=Special+Elite&family=Tangerine&family=UnifrakturMaguntia&family=VT323&family=Zeyada&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC&family=Babylonica&family=Bebas+Neue&family=Codystar:wght@300&family=Creepster&family=Homemade+Apple&family=Indie+Flower&family=Josefin+Sans:wght@100&family=Julee&family=Lobster&family=Luckiest+Guy&family=Monoton&family=Noto+Serif:ital@1&family=Oswald:wght@200&family=Poiret+One&family=Press+Start+2P&family=Righteous&family=Roboto+Mono:wght@100&family=Rubik+Vinyl&family=Shadows+Into+Light&family=Special+Elite&family=Tangerine&family=UnifrakturMaguntia&family=VT323&family=Zeyada&display=swap");
 
 h1 {
-    color: #ff00ff;
-    font-family: Monoton;
-    font-size: 500%;
+  color: #ff00ff;
+  font-family: Monoton;
+  font-size: 500%;
 }
 
 .body-one {
-    background: linear-gradient(0.25turn, #2e35ff, #000000, #cb2eff);
-    text-align: center;
+  background: linear-gradient(0.25turn, #2e35ff, #000000, #cb2eff);
+  text-align: center;
 }
 
 .body-two {
-    background: linear-gradient(0.25turn, rgb(203, 46, 255), rgb(0, 0, 0), rgb(46, 53, 255));
-    text-align: center;
+  background: linear-gradient(
+    0.25turn,
+    rgb(203, 46, 255),
+    rgb(0, 0, 0),
+    rgb(46, 53, 255)
+  );
+  text-align: center;
 }
 
 .breakdown {
-    color: #ffff00;
-    font-family: Abril;
-    letter-spacing: 2px;
-    line-height: 125%;
+  color: #ffff00;
+  font-family: Abril;
+  letter-spacing: 2px;
+  line-height: 125%;
 }
 
 .button {
-    color: #ff00ff; 
-    background-color: black;
-    border-color: #ff00ff;
-    border-radius: 5px;
-    font-family: Monoton;
-    font-size: 120%;
-    letter-spacing: 2px;
-    padding: 15px;
-    min-height: 30px;
-    min-width: 120px;   
+  color: #ff00ff;
+  background-color: black;
+  border-color: #ff00ff;
+  border-radius: 5px;
+  font-family: Monoton;
+  font-size: 120%;
+  letter-spacing: 2px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
 }
- .second-button {
-    color: #00ffff; 
-    background-color: black;
-    border-color: #00ffff;
-    border-radius: 5px;
-    font-family: Monoton;
-    font-size: 120%;
-    letter-spacing: 2px;
-    padding: 15px;
-    min-height: 30px;
-    min-width: 120px;   
- }
+.second-button {
+  color: #00ffff;
+  background-color: black;
+  border-color: #00ffff;
+  border-radius: 5px;
+  font-family: Monoton;
+  font-size: 120%;
+  letter-spacing: 2px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+}
 
 .button:hover {
-    color: #00ffff;
+  color: #00ffff;
 }
 
 .second-button:hover {
-    color: #ff00ff;
+  color: #ff00ff;
 }
 
 .divider {
-    margin: 50px 425px;
-    border: solid;
-    border-color: #ff00ff;
+  margin: 32px auto;
+  border: solid;
+  border-color: #ff00ff;
 }
 
 .quote {
-    font-family: cursive;
-    color: #00ffff;
-    font-size: 125%;
+  font-family: cursive;
+  color: #00ffff;
+  font-size: 125%;
 }
 
 .random-word {
-    margin: auto auto;
-    font-size: 500%;
-    color: antiquewhite;
-    padding-top: 250px;
-    padding-bottom: 50px;
+  margin: auto auto;
+  font-size: 500%;
+  color: antiquewhite;
+  padding-top: 250px;
+  padding-bottom: 50px;
 }
