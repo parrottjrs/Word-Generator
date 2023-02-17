@@ -63,6 +63,7 @@ h1 {
 
 .divider {
   margin: 32px auto;
+  max-width: 500px;
   border: solid;
   border-color: #ff00ff;
 }
