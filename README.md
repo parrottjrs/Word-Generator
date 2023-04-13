@@ -6,7 +6,7 @@ This was my first project for Get Coding NL, and my first foray in the world of 
 
 It was created using HTML5, CSS, and JS.
 
-##About Word Wizard
+## About Word Wizard
 
 Word wizard is a random word generator. It pulls a random quote upon loading the main page. 
 
